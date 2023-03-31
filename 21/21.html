@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            body{
+                background-image:url('images/bgs/black_thread.png');
+            }
+            .menu{
+                position: relative;
+                /* background-color: coral; */
+                width:100%;
+                height:120px;
+            }
+            .logo img{
+                position: absolute;
+                width:80px;
+                top:20px;
+                left:30px;
+            } 
+            .banner h1{
+                position: absolute;
+                display: inline-block;
+                top:28px;
+                left:110px;
+                color:aliceblue;
+                text-transform: uppercase;
+                font-family:'Times New Roman', Times, serif;
+               font-size: 24px;
+            }
+            .banner h4{
+                position: absolute;
+                display: inline-block;
+                top:60px;
+                color:aliceblue;
+                left:110px;
+                font-size:12px ;
+                font-family:'Times New Roman', Times, serif;
+            }
+           .topbar{
+                position: relative;
+                /* background-color: rgb(219, 12, 12); */
+                height:30px;
+                width:570px;
+                top: 15px;
+                left:440px;
+           }
+           .topbar ul{
+            margin:0px 0px 0px 0px;
+            padding: 0;
+            list-style: none;
+            
+           }
+           .topbar ul li{
+            padding:5px;
+            float: left;
+            font-weight: bold;
+           
+           }
+           .topbar ul li a{
+            text-decoration: none;
+            display: block;
+            color:rgb(255, 255, 255);
+            font-size: 11px;
+            color:rgb(169, 169, 169);
+           }
+           .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:100%;
+            height:35px;
+            background-color: rgb(38, 37, 37);
+           }
+           .navbar ul{
+            margin:0;
+            padding: 0;
+            list-style: none;
+            
+           }
+           .navbar ul li{
+            padding:10px;
+            margin:1px 15px;
+            float:left;
+            font-weight: bold;
+            
+           }
+           .navbar ul li a{
+            text-decoration: none;
+            display: block;
+            color:black;
+            font-size: 11px;
+            color:rgb(255, 255, 255);
+           }
+           
+           .container{
+            height:350px;
+            width:100%;
+            background-image: url(R\ \(2\).jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            animation-name: animate1;
+            animation-duration: 12s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+           }
+           @keyframes animate1{
+            0%{
+                background-image: url(R\ \(2\).jpg);
+            }
+            35%{
+                background-image: url(R\ \(3\).jpg);
+            }
+            75%{
+                background-image: url(banasthali-vidyapith.jpg);
+            }
+           }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <div class="logo">
+                    <img src="BanasthaliLogo.png"/> 
+                </div>
+                <div class="banner">
+                    <h1>Banasthali Vidyapith</h1>
+                    <h4>University for Women, University with a difference...</h4>
+                </div>
+                <div class="topbar">
+                    <ul>
+                        <li><a href="#">NEWS & EVENTS</a></li>
+                        <li><a href="#">INTERNATIONAL</a></li>
+                        <li><a href="#">CAREERS</a> </li>
+                        <li><a href="#">PLACEMENTS</a> </li>
+                        <li><a href="#">ALUMNI</a> </li>
+                        <li><a href="#">CONTACT US</a> </li>
+                        <li><a href="#">LOGIN HUB</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">ACADEMICS</a></li>
+                    <li><a href="#">RESEARCH</a> </li>
+                    <li><a href="#">CAMPUS & FACILITIES</a> </li>
+                    <li><a href="#">SCHOOL EDUCATION</a> </li>
+                    <li><a href="#">ADMISSIONS</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+           <div class="container">
+           </div>
+        </section>
+    </body>
+</html>
